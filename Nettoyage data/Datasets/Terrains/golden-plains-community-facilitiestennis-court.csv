@@ -1,0 +1,285 @@
+"Complex_Name","Complex_Type","Facility_Name","Facility_Type","Bookable_Item","Assessment_No","F8","Number","Road_Name","Locality","Post_Code","Contact_Name","Contact_Number","Contact_Email","Home_Clubs","Hours_of_Operation","Description","Amenities","Hire_Agreements","Availability","Facebook_Page","Capacity","LAT","LONG"
+"Mannibadar Tennis Reserve","Recreation Reserve","Mannibadar Tennis Reserve Tennis Courts","Tennis Court","Mannibadar Tennis Reserve Tennis Court 1","41400036","",1459,"Rokewood-Skipton Road","Mannibadar",3360,"Ken Sharpe","0438 154 193","khsharpe@bigpond.com","","","Number of courts: 2
+Surface: Asphalt
+Public Access: Yes
+Active club: Mannibadar Tennis Club","","","","","",-37.760717,143.497898
+"Mannibadar Tennis Reserve","Recreation Reserve","Mannibadar Tennis Reserve Tennis Courts","Tennis Court","Mannibadar Tennis Reserve Tennis Court 2","41400036","",1459,"Rokewood-Skipton Road","Mannibadar",3360,"Ken Sharpe","0438 154 193","khsharpe@bigpond.com","","","Number of courts: 2
+Surface: Asphalt
+Public Access: Yes
+Active club: Mannibadar Tennis Club","","","","","",-37.760717,143.497898
+"Cape Clear Recreation Reserve","Recreation Reserve","Cape Clear Recreation Reserve Tennis Court","Tennis Court","Cape Clear Recreation Reserve Tennis Court","91000683","",0,"Recreation Road","Cape Clear",3351,"Craig Cook","0400 477 493","vk3cmc@bigpond.com.au","","","Number of courts: 1
+Surface: Asphalt
+Public Access: Yes
+Active club: No","","","","","",-37.791818,143.611632
+"Haddon Recreation Reserve","Recreation Reserve","Haddon Recreation Reserve Tennis Courts","Tennis Court","Haddon Recreation Reserve Tennis Court 1","66116405","",396,"Sago Hill Road","Haddon",3351,"Peter Luke","0410 524 995","luke.peter.r@edumail.vic.gov.au","","","Number of courts: 4
+Surface: Asphalt
+Public Access: Yes
+Active club: Haddon Tennis Club","","","","","",-37.58812,143.722213
+"Haddon Recreation Reserve","Recreation Reserve","Haddon Recreation Reserve Tennis Courts","Tennis Court","Haddon Recreation Reserve Tennis Court 2","66116405","",396,"Sago Hill Road","Haddon",3351,"Peter Luke","0410 524 995","luke.peter.r@edumail.vic.gov.au","","","Number of courts: 4
+Surface: Asphalt
+Public Access: Yes
+Active club: Haddon Tennis Club","","","","","",-37.58812,143.722213
+"Haddon Recreation Reserve","Recreation Reserve","Haddon Recreation Reserve Tennis Courts","Tennis Court","Haddon Recreation Reserve Tennis Court 3","66116405","",396,"Sago Hill Road","Haddon",3351,"Peter Luke","0410 524 995","luke.peter.r@edumail.vic.gov.au","","","Number of courts: 4
+Surface: Asphalt
+Public Access: Yes
+Active club: Haddon Tennis Club","","","","","",-37.58812,143.722213
+"Haddon Recreation Reserve","Recreation Reserve","Haddon Recreation Reserve Tennis Courts","Tennis Court","Haddon Recreation Reserve Tennis Court 4","66116405","",396,"Sago Hill Road","Haddon",3351,"Peter Luke","0410 524 995","luke.peter.r@edumail.vic.gov.au","","","Number of courts: 4
+Surface: Asphalt
+Public Access: Yes
+Active club: Haddon Tennis Club","","","","","",-37.58812,143.722213
+"Ross Creek Recreation Reserve","Recreation Reserve","Ross Creek Recreation Reserve Tennis Courts","Tennis Court","Ross Creek Recreation Reserve Tennis Court 1","41400035","",655,"Sebastopol-Smythesdale Road","Ross Creek",3351,"Shayne Wren","0417 110 250","shaynewren@gmail.com","","","Number of courts: 4
+Surface: Plexipave
+Public Access: Yes
+Active club: Ross Creek Tennis Club","","","","","",-37.632091,143.758713
+"Ross Creek Recreation Reserve","Recreation Reserve","Ross Creek Recreation Reserve Tennis Courts","Tennis Court","Ross Creek Recreation Reserve Tennis Court 2","41400035","",655,"Sebastopol-Smythesdale Road","Ross Creek",3351,"Shayne Wren","0417 110 250","shaynewren@gmail.com","","","Number of courts: 4
+Surface: Plexipave
+Public Access: Yes
+Active club: Ross Creek Tennis Club","","","","","",-37.632091,143.758713
+"Ross Creek Recreation Reserve","Recreation Reserve","Ross Creek Recreation Reserve Tennis Courts","Tennis Court","Ross Creek Recreation Reserve Tennis Court 3","41400035","",655,"Sebastopol-Smythesdale Road","Ross Creek",3351,"Shayne Wren","0417 110 250","shaynewren@gmail.com","","","Number of courts: 4
+Surface: Plexipave
+Public Access: Yes
+Active club: Ross Creek Tennis Club","","","","","",-37.632091,143.758713
+"Ross Creek Recreation Reserve","Recreation Reserve","Ross Creek Recreation Reserve Tennis Courts","Tennis Court","Ross Creek Recreation Reserve Tennis Court 4","41400035","",655,"Sebastopol-Smythesdale Road","Ross Creek",3351,"Shayne Wren","0417 110 250","shaynewren@gmail.com","","","Number of courts: 4
+Surface: Plexipave
+Public Access: Yes
+Active club: Ross Creek Tennis Club","","","","","",-37.632091,143.758713
+"Napoleons Recreation Reserve","Recreation Reserve","Napoleons Recreation Reserve Tennis Courts","Tennis Court","Napoleons Recreation Reserve Tennis Court 1","54002342","",0,"Colac-Ballarat Road","Napoleons",3352,"Veronica Black","0417 560 303","paulhazlett@bigpond.com","","","Number of courts: 6
+Surface: Plexipave
+Public Access: Yes
+Active club: Napoleons Tennis Club","","","","","",-37.680147,143.825216
+"Napoleons Recreation Reserve","Recreation Reserve","Napoleons Recreation Reserve Tennis Courts","Tennis Court","Napoleons Recreation Reserve Tennis Court 2","54002342","",0,"Colac-Ballarat Road","Napoleons",3352,"Veronica Black","0417 560 303","paulhazlett@bigpond.com","","","Number of courts: 6
+Surface: Plexipave
+Public Access: Yes
+Active club: Napoleons Tennis Club","","","","","",-37.680147,143.825216
+"Napoleons Recreation Reserve","Recreation Reserve","Napoleons Recreation Reserve Tennis Courts","Tennis Court","Napoleons Recreation Reserve Tennis Court 3","54002342","",0,"Colac-Ballarat Road","Napoleons",3352,"Veronica Black","0417 560 303","paulhazlett@bigpond.com","","","Number of courts: 6
+Surface: Plexipave
+Public Access: Yes
+Active club: Napoleons Tennis Club","","","","","",-37.680147,143.825216
+"Napoleons Recreation Reserve","Recreation Reserve","Napoleons Recreation Reserve Tennis Courts","Tennis Court","Napoleons Recreation Reserve Tennis Court 4","54002342","",0,"Colac-Ballarat Road","Napoleons",3352,"Veronica Black","0417 560 303","paulhazlett@bigpond.com","","","Number of courts: 6
+Surface: Plexipave
+Public Access: Yes
+Active club: Napoleons Tennis Club","","","","","",-37.680147,143.825216
+"Napoleons Recreation Reserve","Recreation Reserve","Napoleons Recreation Reserve Tennis Courts","Tennis Court","Napoleons Recreation Reserve Tennis Court 5","54002342","",0,"Colac-Ballarat Road","Napoleons",3352,"Veronica Black","0417 560 303","paulhazlett@bigpond.com","","","Number of courts: 6
+Surface: Plexipave
+Public Access: Yes
+Active club: Napoleons Tennis Club","","","","","",-37.680147,143.825216
+"Napoleons Recreation Reserve","Recreation Reserve","Napoleons Recreation Reserve Tennis Courts","Tennis Court","Napoleons Recreation Reserve Tennis Court 6","54002342","",0,"Colac-Ballarat Road","Napoleons",3352,"Veronica Black","0417 560 303","paulhazlett@bigpond.com","","","Number of courts: 6
+Surface: Plexipave
+Public Access: Yes
+Active club: Napoleons Tennis Club","","","","","",-37.680147,143.825216
+"Grenville Recreation Reserve","Recreation Reserve","Grenville Recreation Reserve Tennis Courts","Tennis Court","Grenville Recreation Reserve Tennis Court 1","54005009","",1462,"Buninyong-Mt Mercer Road","Grenville",3351,"Fiona Cameron","5341 4552 or 0400 332 031","","","","Number of courts: 2
+Surface: Asphalt
+Public Access: Yes
+Active club: Grenville Tennis Club","","","","","",-37.769056,143.884521
+"Grenville Recreation Reserve","Recreation Reserve","Grenville Recreation Reserve Tennis Courts","Tennis Court","Grenville Recreation Reserve Tennis Court 2","54005009","",1462,"Buninyong-Mt Mercer Road","Grenville",3351,"Fiona Cameron","5341 4552 or 0400 332 031","","","","Number of courts: 2
+Surface: Asphalt
+Public Access: Yes
+Active club: Grenville Tennis Club","","","","","",-37.769056,143.884521
+"Woady Yaloak Recreation Reserve","Recreation Reserve","Smythesdale Tennis Courts","Tennis Court","Smythesdale Tennis Court 1","66300008","",55,"Heales Street","Smythesdale",3351,"Lauren Parker","0407 428 849","savvy953@hotmail.com","","","Number of courts: 4
+Surface: Asphalt/Plexipave
+Public Access: Yes
+Active club: Smythesdale Tennis Club","","","","","",-37.64181,143.683965
+"Woady Yaloak Recreation Reserve","Recreation Reserve","Smythesdale Tennis Courts","Tennis Court","Smythesdale Tennis Court 2","66300008","",55,"Heales Street","Smythesdale",3351,"Lauren Parker","0407 428 849","savvy953@hotmail.com","","","Number of courts: 4
+Surface: Asphalt/Plexipave
+Public Access: Yes
+Active club: Smythesdale Tennis Club","","","","","",-37.64181,143.683965
+"Woady Yaloak Recreation Reserve","Recreation Reserve","Smythesdale Tennis Courts","Tennis Court","Smythesdale Tennis Court 3","66300008","",55,"Heales Street","Smythesdale",3351,"Lauren Parker","0407 428 849","savvy953@hotmail.com","","","Number of courts: 4
+Surface: Asphalt/Plexipave
+Public Access: Yes
+Active club: Smythesdale Tennis Club","","","","","",-37.64181,143.683965
+"Woady Yaloak Recreation Reserve","Recreation Reserve","Smythesdale Tennis Courts","Tennis Court","Smythesdale Tennis Court 4","66300008","",55,"Heales Street","Smythesdale",3351,"Lauren Parker","0407 428 849","savvy953@hotmail.com","","","Number of courts: 4
+Surface: Asphalt/Plexipave
+Public Access: Yes
+Active club: Smythesdale Tennis Club","","","","","",-37.64181,143.683965
+"Linton Recreation Reserve","Recreation Reserve","Linton Tennis Courts","Tennis Court","Linton Tennis Court 1","66379102","",9,"Brooke Street","Linton",3360,"Kirsty Clark","0455 543 400","lintonrecreationreserve@hotmail.com","","","Number of courts: 4
+Surface: Asphalt/Plexipave
+Public Access: Yes
+Active club: No","","","","","",-37.68347,143.56812
+"Linton Recreation Reserve","Recreation Reserve","Linton Tennis Courts","Tennis Court","Linton Tennis Court 2","66379102","",9,"Brooke Street","Linton",3360,"Kirsty Clark","0455 543 400","lintonrecreationreserve@hotmail.com","","","Number of courts: 4
+Surface: Asphalt/Plexipave
+Public Access: Yes
+Active club: No","","","","","",-37.68347,143.56812
+"Linton Recreation Reserve","Recreation Reserve","Linton Tennis Courts","Tennis Court","Linton Tennis Court 3","66379102","",9,"Brooke Street","Linton",3360,"Kirsty Clark","0455 543 400","lintonrecreationreserve@hotmail.com","","","Number of courts: 4
+Surface: Asphalt/Plexipave
+Public Access: Yes
+Active club: No","","","","","",-37.68347,143.56812
+"Linton Recreation Reserve","Recreation Reserve","Linton Tennis Courts","Tennis Court","Linton Tennis Court 4","66379102","",9,"Brooke Street","Linton",3360,"Kirsty Clark","0455 543 400","lintonrecreationreserve@hotmail.com","","","Number of courts: 4
+Surface: Asphalt/Plexipave
+Public Access: Yes
+Active club: No","","","","","",-37.68347,143.56812
+"Bannockburn Recreation Precinct","Recreation Reserve","Bannockburn Tennis Courts","Tennis Court","Bannockburn Tennis Court 1","91001666","",132,"Milton Street","Bannockburn",3331,"","","","Bannockburn Tennis Club","","Number of courts: 6
+Surface: Rebound Ace
+Public Access: Yes
+Active club: Bannockburn Tennis Club","","","","","",-38.036428,144.164469
+"Bannockburn Recreation Precinct","Recreation Reserve","Bannockburn Tennis Courts","Tennis Court","Bannockburn Tennis Court 2","91001666","",132,"Milton Street","Bannockburn",3331,"","","","Bannockburn Tennis Club","","Number of courts: 6
+Surface: Rebound Ace
+Public Access: Yes
+Active club: Bannockburn Tennis Club","","","","","",-38.036428,144.164469
+"Bannockburn Recreation Precinct","Recreation Reserve","Bannockburn Tennis Courts","Tennis Court","Bannockburn Tennis Court 3","91001666","",132,"Milton Street","Bannockburn",3331,"","","","Bannockburn Tennis Club","","Number of courts: 6
+Surface: Rebound Ace
+Public Access: Yes
+Active club: Bannockburn Tennis Club","","","","","",-38.036428,144.164469
+"Bannockburn Recreation Precinct","Recreation Reserve","Bannockburn Tennis Courts","Tennis Court","Bannockburn Tennis Court 4","91001666","",132,"Milton Street","Bannockburn",3331,"","","","Bannockburn Tennis Club","","Number of courts: 6
+Surface: Rebound Ace
+Public Access: Yes
+Active club: Bannockburn Tennis Club","","","","","",-38.036428,144.164469
+"Bannockburn Recreation Precinct","Recreation Reserve","Bannockburn Tennis Courts","Tennis Court","Bannockburn Tennis Court 5","91001666","",132,"Milton Street","Bannockburn",3331,"","","","Bannockburn Tennis Club","","Number of courts: 6
+Surface: Rebound Ace
+Public Access: Yes
+Active club: Bannockburn Tennis Club","","","","","",-38.036428,144.164469
+"Bannockburn Recreation Precinct","Recreation Reserve","Bannockburn Tennis Courts","Tennis Court","Bannockburn Tennis Court 6","91001666","",132,"Milton Street","Bannockburn",3331,"","","","Bannockburn Tennis Club","","Number of courts: 6
+Surface: Rebound Ace
+Public Access: Yes
+Active club: Bannockburn Tennis Club","","","","","",-38.036428,144.164469
+"Lethbridge Recreation Reserve","Recreation Reserve","Lethbridge Recreation Reserve Tennis Courts","Tennis Court","Lethbridge Recreation Reserve Tennis Court 1","45600011","",8,"Stephenson Street","Lethbridge",3332,"Andrea Spiller","5281 9207","baspiller@bigpond.com","","","Number of courts: 3
+Surface: Asphalt/Plexipave
+Public Access: Yes
+Active club: Lethbridge Tennis Club","","","","","",-37.967564,144.134532
+"Lethbridge Recreation Reserve","Recreation Reserve","Lethbridge Recreation Reserve Tennis Courts","Tennis Court","Lethbridge Recreation Reserve Tennis Court 2","45600011","",8,"Stephenson Street","Lethbridge",3332,"Andrea Spiller","5281 9207","baspiller@bigpond.com","","","Number of courts: 3
+Surface: Asphalt/Plexipave
+Public Access: Yes
+Active club: Lethbridge Tennis Club","","","","","",-37.967564,144.134532
+"Lethbridge Recreation Reserve","Recreation Reserve","Lethbridge Recreation Reserve Tennis Courts","Tennis Court","Lethbridge Recreation Reserve Tennis Court 3","45600011","",8,"Stephenson Street","Lethbridge",3332,"Andrea Spiller","5281 9207","baspiller@bigpond.com","","","Number of courts: 3
+Surface: Asphalt/Plexipave
+Public Access: Yes
+Active club: Lethbridge Tennis Club","","","","","",-37.967564,144.134532
+"Rokewood Recreation Reserve","Recreation Reserve","Rokewood Tennis Courts","Tennis Court","Rokewood Tennis Court 1","53181407","",14,"McMillan Street","Rokewood",3330,"Gwen Mills","0408 461 450","gwenmills38@bigpond.com.au","","","Number of courts: 2
+Surface: Plexipave
+Public Access: Yes
+Active club: Rokewood Tennis Club","","","","","",-37.902426,143.717106
+"Rokewood Recreation Reserve","Recreation Reserve","Rokewood Tennis Courts","Tennis Court","Rokewood Tennis Court 2","53181407","",14,"McMillan Street","Rokewood",3330,"Gwen Mills","0408 461 450","gwenmills38@bigpond.com.au","","","Number of courts: 2
+Surface: Plexipave
+Public Access: Yes
+Active club: Rokewood Tennis Club","","","","","",-37.902426,143.717106
+"Enfield Recreation Reserve","Recreation Reserve","Enfield Recreation Reserve Tennis Court","Tennis Court","Enfield Recreation Reserve Tennis Court","91002384","",0,"Colac-Ballarat Road","Enfield",3351,"","","","","","Number of courts: 1
+Surface: Asphalt
+Public Access: Yes
+Active club: No","","","","","",-37.757682,143.783898
+"Corindhap Recreation Reserve","Recreation Reserve","Corindhap Recreation Reserve Tennis Courts","Tennis Court","Corindhap Recreation Reserve Tennis Court 1","53241466","",17,"Hall Road","Corindhap",3352,"Joanne Griffith","0429 461 259","joanne.griffith6@bigpond.com","","","Number of courts: 2
+Surface: Asphalt
+Public Access: Yes
+Active club: No","","","","","",-37.873185,143.740973
+"Corindhap Recreation Reserve","Recreation Reserve","Corindhap Recreation Reserve Tennis Courts","Tennis Court","Corindhap Recreation Reserve Tennis Court 2","53241466","",17,"Hall Road","Corindhap",3352,"Joanne Griffith","0429 461 259","joanne.griffith6@bigpond.com","","","Number of courts: 2
+Surface: Asphalt
+Public Access: Yes
+Active club: No","","","","","",-37.873185,143.740973
+"Barunah Park Recreation Reserve","Recreation Reserve","Barunah Park Tennis Courts","Tennis Court","Barunah Park Tennis Court 1","52230696","",1620,"Cressy-Shelford Road","Barunah Park",3329,"Margaret Bufton","5238 8341","","","","Number of courts: 2
+Surface: Asphalt
+Public Access: Yes
+Active club: No","","","","","",-38.022405,143.855625
+"Barunah Park Recreation Reserve","Recreation Reserve","Barunah Park Tennis Courts","Tennis Court","Barunah Park Tennis Court 2","52230696","",1620,"Cressy-Shelford Road","Barunah Park",3329,"Margaret Bufton","5238 8341","","","","Number of courts: 2
+Surface: Asphalt
+Public Access: Yes
+Active club: No","","","","","",-38.022405,143.855625
+"Shelford Tennis Reserve","Recreation Reserve","Shelford Tennis Reserve Tennis Courts","Tennis Court","Shelford Tennis Reserve Tennis Court 1","91001759","",37,"Ormond Street","Shelford",3329,"","","","","","Number of courts: 3
+Surface: Plexipave/Asphalt
+Public Access: Yes
+Active club: No","","","","","",-38.011171,143.975621
+"Shelford Tennis Reserve","Recreation Reserve","Shelford Tennis Reserve Tennis Courts","Tennis Court","Shelford Tennis Reserve Tennis Court 2","91001759","",37,"Ormond Street","Shelford",3329,"","","","","","Number of courts: 3
+Surface: Plexipave/Asphalt
+Public Access: Yes
+Active club: No","","","","","",-38.011171,143.975621
+"Shelford Tennis Reserve","Recreation Reserve","Shelford Tennis Reserve Tennis Courts","Tennis Court","Shelford Tennis Reserve Tennis Court 3","91001759","",37,"Ormond Street","Shelford",3329,"","","","","","Number of courts: 3
+Surface: Plexipave/Asphalt
+Public Access: Yes
+Active club: No","","","","","",-38.011171,143.975621
+"Teesdale Recreation Reserve","Recreation Reserve"," Teesdale Recreation Reserve Tennis Courts","Tennis Court","Teesdale Recreation Reserve Tennis Court 1","51200246","",1164," Bannockburn-Shelford Road","Teesdale",3328,"Judi Evans","0418 552 794","judievans27@gmail.com","Number of courts: 6
+Surface: Asphalt/Synthetic Grass
+Public Access: Yes
+Active club: Teesdale Tennis Club","","","","","","","",-38.023002,144.042493
+"Teesdale Recreation Reserve","Recreation Reserve"," Teesdale Recreation Reserve Tennis Courts","Tennis Court","Teesdale Recreation Reserve Tennis Court 2","51200246","",1164," Bannockburn-Shelford Road","Teesdale",3328,"Judi Evans","0418 552 794","judievans27@gmail.com","Number of courts: 6
+Surface: Asphalt/Synthetic Grass
+Public Access: Yes
+Active club: Teesdale Tennis Club","","","","","","","",-38.023002,144.042493
+"Teesdale Recreation Reserve","Recreation Reserve"," Teesdale Recreation Reserve Tennis Courts","Tennis Court","Teesdale Recreation Reserve Tennis Court 3","51200246","",1164," Bannockburn-Shelford Road","Teesdale",3328,"Judi Evans","0418 552 794","judievans27@gmail.com","Number of courts: 6
+Surface: Asphalt/Synthetic Grass
+Public Access: Yes
+Active club: Teesdale Tennis Club","","","","","","","",-38.023002,144.042493
+"Teesdale Recreation Reserve","Recreation Reserve"," Teesdale Recreation Reserve Tennis Courts","Tennis Court","Teesdale Recreation Reserve Tennis Court 4","51200246","",1164," Bannockburn-Shelford Road","Teesdale",3328,"Judi Evans","0418 552 794","judievans27@gmail.com","Number of courts: 6
+Surface: Asphalt/Synthetic Grass
+Public Access: Yes
+Active club: Teesdale Tennis Club","","","","","","","",-38.023002,144.042493
+"Teesdale Recreation Reserve","Recreation Reserve"," Teesdale Recreation Reserve Tennis Courts","Tennis Court","Teesdale Recreation Reserve Tennis Court 5","51200246","",1164," Bannockburn-Shelford Road","Teesdale",3328,"Judi Evans","0418 552 794","judievans27@gmail.com","Number of courts: 6
+Surface: Asphalt/Synthetic Grass
+Public Access: Yes
+Active club: Teesdale Tennis Club","","","","","","","",-38.023002,144.042493
+"Teesdale Recreation Reserve","Recreation Reserve"," Teesdale Recreation Reserve Tennis Courts","Tennis Court","Teesdale Recreation Reserve Tennis Court 6","51200246","",1164," Bannockburn-Shelford Road","Teesdale",3328,"Judi Evans","0418 552 794","judievans27@gmail.com","Number of courts: 6
+Surface: Asphalt/Synthetic Grass
+Public Access: Yes
+Active club: Teesdale Tennis Club","","","","","","","",-38.023002,144.042493
+"Inverleigh Tennis Reserve","Recreation Reserve","Inverleigh Tennis Reserve Tennis Courts","Tennis Court","Inverleigh Tennis Reserve Tennis Court 1","23601200","",60,"High Street","Inverleigh",3321,"","","","Inverleigh Tennis Club","","Number of courts: 4
+Surface: Asphalt
+Public Access: Yes
+Active club: Inverleigh Tennis Club","","","","","",-38.100783,144.053754
+"Inverleigh Tennis Reserve","Recreation Reserve","Inverleigh Tennis Reserve Tennis Courts","Tennis Court","Inverleigh Tennis Reserve Tennis Court 2","23601200","",60,"High Street","Inverleigh",3321,"","","","Inverleigh Tennis Club","","Number of courts: 4
+Surface: Asphalt
+Public Access: Yes
+Active club: Inverleigh Tennis Club","","","","","",-38.100783,144.053754
+"Inverleigh Tennis Reserve","Recreation Reserve","Inverleigh Tennis Reserve Tennis Courts","Tennis Court","Inverleigh Tennis Reserve Tennis Court 3","23601200","",60,"High Street","Inverleigh",3321,"","","","Inverleigh Tennis Club","","Number of courts: 4
+Surface: Asphalt
+Public Access: Yes
+Active club: Inverleigh Tennis Club","","","","","",-38.100783,144.053754
+"Inverleigh Tennis Reserve","Recreation Reserve","Inverleigh Tennis Reserve Tennis Courts","Tennis Court","Inverleigh Tennis Reserve Tennis Court 4","23601200","",60,"High Street","Inverleigh",3321,"","","","Inverleigh Tennis Club","","Number of courts: 4
+Surface: Asphalt
+Public Access: Yes
+Active club: Inverleigh Tennis Club","","","","","",-38.100783,144.053754
+"Meredith Recreation Reserve","Recreation Reserve","Meredith Recreation Reserve Tennis Courts","Tennis Court","Meredith Recreation Reserve Tennis Court 1","36600007","",0,"Wilson Street","Meredith",3333,"Julie Cameron","0420 777 883 or 5286 2000","","","","Number of courts: 6
+Surface: Asphalt
+Public Access: Yes
+Active club: Meredith Tennis Club","","","","","",-37.847398,144.074716
+"Meredith Recreation Reserve","Recreation Reserve","Meredith Recreation Reserve Tennis Courts","Tennis Court","Meredith Recreation Reserve Tennis Court 2","36600007","",0,"Wilson Street","Meredith",3333,"Julie Cameron","0420 777 883 or 5286 2000","","","","Number of courts: 6
+Surface: Asphalt
+Public Access: Yes
+Active club: Meredith Tennis Club","","","","","",-37.847398,144.074716
+"Meredith Recreation Reserve","Recreation Reserve","Meredith Recreation Reserve Tennis Courts","Tennis Court","Meredith Recreation Reserve Tennis Court 3","36600007","",0,"Wilson Street","Meredith",3333,"Julie Cameron","0420 777 883 or 5286 2000","","","","Number of courts: 6
+Surface: Asphalt
+Public Access: Yes
+Active club: Meredith Tennis Club","","","","","",-37.847398,144.074716
+"Meredith Recreation Reserve","Recreation Reserve","Meredith Recreation Reserve Tennis Courts","Tennis Court","Meredith Recreation Reserve Tennis Court 4","36600007","",0,"Wilson Street","Meredith",3333,"Julie Cameron","0420 777 883 or 5286 2000","","","","Number of courts: 6
+Surface: Asphalt
+Public Access: Yes
+Active club: Meredith Tennis Club","","","","","",-37.847398,144.074716
+"Meredith Recreation Reserve","Recreation Reserve","Meredith Recreation Reserve Tennis Courts","Tennis Court","Meredith Recreation Reserve Tennis Court 5","36600007","",0,"Wilson Street","Meredith",3333,"Julie Cameron","0420 777 883 or 5286 2000","","","","Number of courts: 6
+Surface: Asphalt
+Public Access: Yes
+Active club: Meredith Tennis Club","","","","","",-37.847398,144.074716
+"Meredith Recreation Reserve","Recreation Reserve","Meredith Recreation Reserve Tennis Courts","Tennis Court","Meredith Recreation Reserve Tennis Court 6","36600007","",0,"Wilson Street","Meredith",3333,"Julie Cameron","0420 777 883 or 5286 2000","","","","Number of courts: 6
+Surface: Asphalt
+Public Access: Yes
+Active club: Meredith Tennis Club","","","","","",-37.847398,144.074716
+"Maude Tennis Reserve","Recreation Reserve","Maude Tennis Reserve Tennis Courts","Tennis Court","Maude Tennis Court 1","91000120","",0,"Steiglitz Road","Maude",3331,"Tracey Young","0414 227 896","craig.young7@bigpond.com","","","Number of courts: 4
+Surface: Asphalt
+Public Access: Yes
+Active club: Maude Tennis Club","","","","","",-37.949409,144.169117
+"Maude Tennis Reserve","Recreation Reserve","Maude Tennis Reserve Tennis Courts","Tennis Court","Maude Tennis Court 2","91000120","",0,"Steiglitz Road","Maude",3331,"Tracey Young","0414 227 896","craig.young7@bigpond.com","","","Number of courts: 4
+Surface: Asphalt
+Public Access: Yes
+Active club: Maude Tennis Club","","","","","",-37.949409,144.169117
+"Maude Tennis Reserve","Recreation Reserve","Maude Tennis Reserve Tennis Courts","Tennis Court","Maude Tennis Court 3","91000120","",0,"Steiglitz Road","Maude",3331,"Tracey Young","0414 227 896","craig.young7@bigpond.com","","","Number of courts: 4
+Surface: Asphalt
+Public Access: Yes
+Active club: Maude Tennis Club","","","","","",-37.949409,144.169117
+"Maude Tennis Reserve","Recreation Reserve","Maude Tennis Reserve Tennis Courts","Tennis Court","Maude Tennis Court 4","91000120","",0,"Steiglitz Road","Maude",3331,"Tracey Young","0414 227 896","craig.young7@bigpond.com","","","Number of courts: 4
+Surface: Asphalt
+Public Access: Yes
+Active club: Maude Tennis Club","","","","","",-37.949409,144.169117
+"Gheringhap Tennis Reserve","Recreation Reserve","Gheringhap Tennis Reserve Tennis Courts","Tennis Court","Gheringhap Tennis Reserve Tennis Court 1","43600430","",79,"Station Street","Gheringhap",3331,"Les McInerney","0408 973 987","lmcinerney5@bigpond.com","Gheringhap Tennis Club","","Number of courts: 3
+Surface: Plexipave
+Public Access: No
+Active club: Gheringhap Tennis Club","","","","","",-38.074414,144.235182
+"Gheringhap Tennis Reserve","Recreation Reserve","Gheringhap Tennis Reserve Tennis Courts","Tennis Court","Gheringhap Tennis Reserve Tennis Court 2","43600430","",79,"Station Street","Gheringhap",3331,"Les McInerney","0408 973 987","lmcinerney5@bigpond.com","Gheringhap Tennis Club","","Number of courts: 3
+Surface: Plexipave
+Public Access: No
+Active club: Gheringhap Tennis Club","","","","","",-38.074414,144.235182
+"Gheringhap Tennis Reserve","Recreation Reserve","Gheringhap Tennis Reserve Tennis Courts","Tennis Court","Gheringhap Tennis Reserve Tennis Court 3","43600430","",79,"Station Street","Gheringhap",3331,"Les McInerney","0408 973 987","lmcinerney5@bigpond.com","Gheringhap Tennis Club","","Number of courts: 3
+Surface: Plexipave
+Public Access: No
+Active club: Gheringhap Tennis Club","","","","","",-38.074414,144.235182
+"Sutherlands Creek Tennis Reserve","Recreation Reserve","Sutherlands Creek Tennis Reserve Tennis Courts","Tennis Court","Sutherlands Creek Tennis Reserve Tennis Court 1","41400828","",841,"Steiglitz Road","Sutherlands Creek",3331,"Chris Kelly","0418 541 143","ckelly@australianmerino.net.au","Sutherlands Creek Tennis Club","","Number of courts: 2
+Surface: Plexipave
+Public Access: No
+Active club: Sutherlands Creek Tennis Club","","","","","",-38.01553,144.227951
+"Sutherlands Creek Tennis Reserve","Recreation Reserve","Sutherlands Creek Tennis Reserve Tennis Courts","Tennis Court","Sutherlands Creek Tennis Reserve Tennis Court 2","41400828","",841,"Steiglitz Road","Sutherlands Creek",3331,"Chris Kelly","0418 541 143","ckelly@australianmerino.net.au","Sutherlands Creek Tennis Club","","Number of courts: 2
+Surface: Plexipave
+Public Access: No
+Active club: Sutherlands Creek Tennis Club","","","","","",-38.01553,144.227951
