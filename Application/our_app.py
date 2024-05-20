@@ -1,41 +1,70 @@
 import streamlit as st
 import os
+import base64
+
+def add_bg_from_local(image_file):
+    with open(image_file, "rb") as image_file:
+        encoded_string = base64.b64encode(image_file.read()).decode()
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-image: url(data:image/{"png"};base64,{encoded_string});
+            background-size: cover;
+        }}
+        .white-text {{
+            color: white;
+        }}
+        .content {{
+            position: relative;
+        }}
+        .images {{
+            text-align: center;
+        }}
+        .images img {{
+            margin: 20px; /* Ajustez selon vos préférences */
+            max-width: 80%; /* Ajustez selon vos préférences */
+            height: auto;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 
 def accueil():
-    st.title('Page d\'accueil')
-    st.write('Bienvenue dans notre application !')
-    try:
-        image_path = os.path.join(os.path.dirname(__file__), 'tennis.jpg')
-        if os.path.exists(image_path):
-            st.image(image_path, use_column_width=True)
-        else:
-            st.error(f"Image non trouvée : {image_path}")
-    except Exception as e:
-        st.error(f"Erreur lors du chargement de l'image : {e}")
+    add_bg_from_local(os.path.join('static', 'tennis.jpg'))
+    
+    st.markdown("""
+    <div class="content">
+        <div class="left-text">
+            <h1 class="white-text">Page d'accueil</h1>
+            <p class="white-text">Bienvenue dans notre application de tennis !</p>
+        </div>
+        <div class="images">
+            <img src="data:image/png;base64,{}" class="img1">
+        </div>
+        <div class="images">
+            <img src="data:image/png;base64,{}" class="img2">
+        </div>
+        <div class="images">
+            <img src="data:image/png;base64,{}" class="photo-act">
+        </div>
+    </div>
+    """.format(
+        base64.b64encode(open('static/img1.jpg', "rb").read()).decode(),
+        base64.b64encode(open('static/img2.jpg', "rb").read()).decode(),
+        base64.b64encode(open('static/photo_act.jpg', "rb").read()).decode()
+    ), unsafe_allow_html=True)
 
 def graphiques():
-    st.title('Page des graphiques')
-    st.write('Ici, vous verrez des graphiques réalisés.')
-    try:
-        image_path = os.path.join(os.path.dirname(__file__), 'OIP.jpg')
-        if os.path.exists(image_path):
-            st.image(image_path, use_column_width=True)
-        else:
-            st.error(f"Image non trouvée : {image_path}")
-    except Exception as e:
-        st.error(f"Erreur lors du chargement de l'image : {e}")
+    add_bg_from_local(os.path.join('static', 'wt.webp'))
+    st.markdown('<h1 class="white-text">Page des graphiques</h1>', unsafe_allow_html=True)
+    st.markdown('<p class="white-text">Ici, vous verrez des graphiques réalisés.</p>', unsafe_allow_html=True)
 
 def modeles_ml():
-    st.title('Page des modèles de ML')
-    st.write('Ici, vous verrez les modèles réalisés et leurs résultats.')
-    try:
-        image_path = os.path.join(os.path.dirname(__file__), 'img.jpg')
-        if os.path.exists(image_path):
-            st.image(image_path, use_column_width=True)
-        else:
-            st.error(f"Image non trouvée : {image_path}")
-    except Exception as e:
-        st.error(f"Erreur lors du chargement de l'image : {e}")
+    add_bg_from_local(os.path.join('static', 'img.jpg'))
+    st.markdown('<h1 class="white-text">Page des modèles de ML</h1>', unsafe_allow_html=True)
+    st.markdown('<p class="white-text">Ici, vous verrez les modèles réalisés et leurs résultats.</p>', unsafe_allow_html=True)
 
 def main():
     st.sidebar.title('Menu')
