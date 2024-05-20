@@ -46,10 +46,14 @@ def accueil():
         <div class="images">
             <img src="data:image/png;base64,{}" class="img2">
         </div>
+        <div class="images">
+            <img src="data:image/png;base64,{}" class="photo-act">
+        </div>
     </div>
     """.format(
         base64.b64encode(open('static/img1.jpg', "rb").read()).decode(),
-        base64.b64encode(open('static/img2.jpg', "rb").read()).decode()
+        base64.b64encode(open('static/img2.jpg', "rb").read()).decode(),
+        base64.b64encode(open('static/photo_act.jpg', "rb").read()).decode()
     ), unsafe_allow_html=True)
 
 def graphiques():
