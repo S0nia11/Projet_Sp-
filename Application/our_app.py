@@ -3,6 +3,9 @@ import os
 import base64
 import pandas as pd
 import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
 
 
 def add_bg_from_local(image_file):
@@ -176,13 +179,104 @@ def graphiques():
     st.image('static/aces.png', use_column_width=True)
     st.image('static/main.png', use_column_width=True)
     
+    st.markdown("""
+    3. Blessures :
+    """)
+    st.image('static/bl1.png', use_column_width=True)
+    st.image('static/bl3.png', use_column_width=True)
+    st.image('static/bl8.png', use_column_width=True)
+    st.image('static/bl6.png', use_column_width=True)
+    st.image('static/bl7.png', use_column_width=True)
+    st.image('static/bl5.png', use_column_width=True)
+    st.image('static/bl4.png', use_column_width=True)
     
+    st.header("Répondre aux probématiques")
+    st.markdown("""
+    1. Performances :
+    """)
+    
+    st.markdown("""
+    2. Blessures :
+    """)
+    
+    st.header("Conclusion")
     
     
 def modeles_ml():
     add_bg_from_local(os.path.join('static', 'img.jpg'))
     st.markdown('<h1 class="white-text">Page des modèles de ML</h1>', unsafe_allow_html=True)
     st.markdown('<p class="white-text">Ici, vous verrez les modèles réalisés et leurs résultats.</p>', unsafe_allow_html=True)
+    
+    st.markdown("""
+    1. Régression mutiple : Prédiction du classement d'un joueur  :
+    """)
+    
+    df_kg = pd.read_csv('GOATList_nettoye.csv')
+    df_kg['dob'] = pd.to_datetime(df_kg['dob'])
+    df_kg['age'] = 2024 - df_kg['dob'].dt.year
+    df_kg['wonPct'] = df_kg['wonPct'].str.rstrip('%').astype('float') / 100.0
+    
+    X = df_kg[['totalPoints', 'tournamentPoints', 'rankingPoints', 'achievementsPoints', 'bestEloRating', 'wonPct', 'age', 'bestRankPoints']]
+    y = df_kg['rank']
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    model = LinearRegression()
+    model.fit(X_train, y_train)
+
+    y_pred = model.predict(X_test)
+    mse = mean_squared_error(y_test, y_pred)
+    r2 = r2_score(y_test, y_pred)
+    
+    st.write("Mean Squared Error:", mse)
+    st.write("R^2 Score:", r2)
+    fig, ax = plt.subplots()
+    ax.scatter(X_test['totalPoints'], y_test, color='blue', label='Valeurs réelles')
+    ax.scatter(X_test['totalPoints'], y_pred, color='red', label='Prédictions')
+    ax.set_xlabel('Total Points')
+    ax.set_ylabel('Rank')
+    ax.set_title('Modèle de Régression Linéaire')
+    ax.legend()
+    st.pyplot(fig)
+    
+    #widgets pour tester le modèle
+    st.markdown('### Testez le modèle avec vos propres valeurs')
+    
+    totalPoints = st.number_input('Total Points', min_value=0)
+    tournamentPoints = st.number_input('Tournament Points', min_value=0)
+    rankingPoints = st.number_input('Ranking Points', min_value=0)
+    achievementsPoints = st.number_input('Achievements Points', min_value=0)
+    bestEloRating = st.number_input('Best Elo Rating', min_value=0)
+    wonPct = st.number_input('Won Percentage', min_value=0.0, max_value=1.0)
+    age = st.number_input('Age', min_value=0)
+    bestRankPoints = st.number_input('Best Rank Points', min_value=0)
+    
+    if st.button('Prédire le Rang'):
+        input_data = pd.DataFrame({
+            'totalPoints': [totalPoints],
+            'tournamentPoints': [tournamentPoints],
+            'rankingPoints': [rankingPoints],
+            'achievementsPoints': [achievementsPoints],
+            'bestEloRating': [bestEloRating],
+            'wonPct': [wonPct],
+            'age': [age],
+            'bestRankPoints': [bestRankPoints]
+        })
+        
+        #prédiction et arrondir 
+        prediction = model.predict(input_data)
+        prediction_rounded = round(prediction[0])
+        
+        st.write(f'Le rang prédit pour les valeurs saisies est : {prediction_rounded}')
+
+        
+        st.write(f'Le rang prédit pour les valeurs saisies est : {prediction[0]:.2f}')
+
+    
+    
+    
+    
+    
+    
 
 def main():
     st.sidebar.title('Menu')
