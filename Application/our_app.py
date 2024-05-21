@@ -6,7 +6,9 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
-
+from sklearn.preprocessing import LabelEncoder
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
 
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
@@ -87,6 +89,7 @@ def graphiques():
     - Runner-up : Finaliste.
     - Major : Les quatres tournoi du Grand Chelem: L’Open Australie, France, Wimbledon(London) et les US.
     - Aces : Des services qui ne sont pas retournés par l'adversaire et qui permettent au serveur de marquer directement un point.
+    - Elo Ratings : la performance globale et la compétitivité du joueur par rapport à ses adversaires au cours de sa carrière.  
     """, unsafe_allow_html=True)
     
     # Problématique
@@ -198,8 +201,10 @@ def graphiques():
     st.markdown("""
     2. Blessures :
     """)
+    st.image('static/bl9.png', use_column_width=True)
     
     st.header("Conclusion")
+    
     
     
 def modeles_ml():
@@ -276,8 +281,45 @@ def modeles_ml():
     1. Classification : Blessures :
     """)
     
+    df_blessures = pd.read_excel('BlessuresTennis_Causes.xlsx')
+    df_blessures['Traitement_Blessures'] = df_blessures['Traitement_Blessures'].fillna('')
+    for column in df_blessures.columns:
+        if df_blessures[column].dtype == 'object':
+            df_blessures[column] = df_blessures[column].astype(str)
+            le = LabelEncoder()
+            df_blessures[column] = le.fit_transform(df_blessures[column])
+    X = df_blessures.drop(columns=['TypeBlessure'])
+    y = df_blessures['TypeBlessure']
     
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    model = LogisticRegression()
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_test)
+    accuracy = accuracy_score(y_test, y_pred)
+    st.write("Accuracy:", accuracy)
     
+    # Widgets pour tester le modèle
+    st.markdown('### Testez le modèle avec vos propres valeurs')
+    
+    age = st.number_input('Age du joueur', min_value=0, max_value=100)
+    surface = st.selectbox('Surface du terrain', ['Hard', 'Clay', 'Grass', 'Carpet'])
+    cause = st.selectbox('Cause de la blessure', ['Trop de pratique', 'Mauvais équipement', 'Mauvaise technique', 'Autre'])
+    
+    if st.button('Prédire le type de blessure'):
+        input_data = pd.DataFrame({
+            'Age': [age],
+            'Surface': [surface],
+            'Cause': [cause]
+        })
+        
+        # Prétraitement des données d'entrée
+        input_data['Surface'] = label_encoders['Surface'].transform(input_data['Surface'])
+        input_data['Cause'] = label_encoders['Cause'].transform(input_data['Cause'])
+        
+        # Prédiction
+        prediction = model.predict(input_data)
+        
+        st.write(f'Le type de blessure prédit est : {prediction[0]}')
     
 
 def main():
