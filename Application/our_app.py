@@ -272,7 +272,9 @@ def modeles_ml():
         st.write(f'Le rang prédit pour les valeurs saisies est : {prediction[0]:.2f}')
 
     
-    
+    st.markdown("""
+    1. Classification : Blessures :
+    """)
     
     
     
